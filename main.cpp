@@ -1,9 +1,9 @@
 /*
-Project 3 - Part 1a / 5
+Project 3 - Part 1b / 5
 Video:  Chapter 2 Part 5
 User-Defined Types
 
-Create a branch named Part1
+Continue your work on branch Part1
 
 Purpose: The entire purpose of this 5-part project is to get you writing C++ code that compiles and to 
 reinforce the syntax habits that C++ requires.  
@@ -20,67 +20,96 @@ You are going to write 10 UDTs in project3.
     Part 1e: you will convert those 10 plain-english UDTs into code that runs.
 ************************
 
-1) Look at the picture of the car interior (Part1a pic.jpg).  
-    Fill in the blanks below which break this car interior down into sub-objects.
-
-    Several sub-objects are listed below that make up this car's interior.
-        you're going to name several things that you'll find on each subobject
-        you're going to name several things that each subobject can do.
-        If you've seen "Family Feud", we are going to do what they do in that show
-
-        A few blanks are filled in for you already.
-
-Main Object: Car Interior
-Sub Object 1: Steering Wheel
-    Name 4 things you'll find on the:    Steering Wheel
-        1) paddle shifters
-        2) 'cruise control' controls
-        3) 
-        4) 
-    Name 2 things you can do with the:   Steering Wheel
-        1) adjust cruise control settings.
-        2)
-        
-Sub Object 2: Instrument Cluster
-    Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
-    Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
-    
-Sub Object 3: Environment Controls
-    Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
-    Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
-
-Sub Object 4: Infotainment System
-    Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
-    Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
-
-Sub Object 5: Seat 
-    Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
-    Name 2 things you can do with the:   Seat
-        1)
-        2)
+1)  Fill in #1 - 4 with a random UDT in plain english
+    These 4 UDTs do not need to be related.
+        a) For each plain-english UDT, write out 5 traits or properties and 3 things it can do
+        b) remember: these properties will eventually become primitives
 */
+
+/*
+ example:  
+ 
+Thing: Car Wash   
+    5 properties:
+        - number of vacuum cleaners
+        - number of eco-friendly cleaning supplies
+        - stores the amount of water used per week.
+        - stores amount of profit made per week
+        - number of cars serviced per day
+    3 things it can do:
+        - wash and wax car
+        - charge customer
+        - detail the car interior
+
+    Notice that I did not use "has a vacuum cleaner" or "Has eco-friendly cleaning supplies" as one of the properties
+    
+    Writing 'has a ___" checks whether or not your object **has the ability to do something**.
+    Instead, I wrote "number of vacuum cleaners" and "number of eco-friendly cleaning supplies".  
+    
+    These are specific objects or amounts. 
+    
+    In C++ terms, this means to I want you to avoid using 'bool' (has a) as a member variable type.
+    Instead, prefer the other primitive types.
+ */
+
+/*
+Thing 1) Orchestral score
+5 properties:
+    1) number of instruments
+    2) displays notes for each instruments
+    3) instrument list
+    4) contains rehearsal marks
+    5) contains tempo markings
+3 things it can do:
+    1) provides roadmap for the conductor
+    2) gives information for the copyist to generate parts
+    3) provides information for hiring musicians
+ */
+
+/*
+Thing 2) Calendar
+5 properties:
+    1) page size
+    2) paper type
+    3) binder type
+    4) contains year information
+    5) displays national holliday dates
+3 things it can do:
+    1) organize person's schedule
+    2) block time off
+    3) remind important events
+ */
+
+/*
+Thing 3) Bookshelf
+5 properties:
+    1) dimensions
+    2) number of doors
+    3) color
+    4) material 
+    5) number of shelves
+3 things it can do:
+    1) stores books
+    2) displays objects
+    3) hide wall defects
+ */
+
+/*
+Thing 4) Road
+5 properties:
+    1) number of lanes
+    2) allows a certain number of vehicles to pass through per hour
+    3) has a starting and ending location
+    4) number of toll sections
+    5) requires a yearly maintenance cost
+3 things it can do:
+    1) connects cities
+    2) increases economic activities
+    3) reduces damages incurred by travelling vehicles
+ */
+
+
+
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
