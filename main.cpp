@@ -53,59 +53,59 @@ Thing: Car Wash
  */
 
 /*
-Thing 1)
+Thing 1) Orchestral score
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of instruments
+    2) displays notes for each instruments
+    3) instrument list
+    4) contains rehearsal marks
+    5) contains tempo markings
 3 things it can do:
-    1)
-    2)
-    3)
+    1) provides roadmap for the conductor
+    2) gives information for the copyist to generate parts
+    3) provides information for hiring musicians
  */
 
 /*
-Thing 2)
+Thing 2) Calendar
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) page size
+    2) paper type
+    3) binder type
+    4) contains year information
+    5) displays national holliday dates
 3 things it can do:
-    1)
-    2)
-    3)
+    1) organize person's schedule
+    2) block time off
+    3) remind important events
  */
 
 /*
-Thing 3)
+Thing 3) Bookshelf
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) dimensions
+    2) number of doors
+    3) color
+    4) material 
+    5) number of shelves
 3 things it can do:
-    1)
-    2)
-    3)
+    1) stores books
+    2) displays objects
+    3) hide wall defects
  */
 
 /*
-Thing 4)
+Thing 4) Road
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of lanes
+    2) allows a certain number of vehicles to pass through per hour
+    3) has a starting and ending location
+    4) number of toll sections
+    5) requires a yearly maintenance cost
 3 things it can do:
-    1)
-    2)
-    3)
+    1) connects cities
+    2) increases economic activities
+    3) reduces damages incurred by travelling vehicles
  */
 
 
